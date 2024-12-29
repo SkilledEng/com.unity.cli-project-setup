@@ -6,6 +6,7 @@ All subsequent updates to it will be made there. This repository is now READ-ONL
 
 The Unity CLI Project Setup provides a command line parser and a set of CLI options that are used to set Unity build, editor, and player settings prior to running tests so that test project can be used in various automated/CI scenarios.
 
+test 
 The code used for the setup options in the package originally predate many of the corresponding CLI options that UTR now has. A few teams at the time needed an easy way to reuse test projects under various configuration settings, so this package was created to help. Some of these command line switches now co-exist as UTR CLI arguments, but they are preserved here for backward compatibility.
 
 ## Section Links
